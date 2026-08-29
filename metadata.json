@@ -1,0 +1,8 @@
+{
+  "name": "Remix Shrushrut — Hospital OPD Queue Management",
+  "description": "Dynamic Hospital Outpatient Department (OPD) queue management system with real-time wait-time calculation, doctor workload balancing, and priority emergency routing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

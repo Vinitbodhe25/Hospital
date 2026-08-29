@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg: #ffffff;
+    --ink: #0f172a;
+    --accent: #0284c7;
+    --subtle: #f8fafc;
+    --border: #e2e8f0;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: var(--ink);
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: 'Newsreader', 'Georgia', Cambria, 'Times New Roman', serif;
+  }
+
+  .font-mono {
+    font-family: 'JetBrains Mono', 'Courier New', monospace;
+  }
+}
+
+/* Editorial Aesthetic Utility Classes */
+.editorial-border {
+  border: 1px solid #0f172a;
+}
+
+.editorial-card-shadow {
+  box-shadow: 3px 3px 0px 0px #0f172a;
+}
+
+.editorial-card-shadow-sm {
+  box-shadow: 2px 2px 0px 0px #0f172a;
+}
+
+.editorial-card-shadow-accent {
+  box-shadow: 3px 3px 0px 0px #0284c7;
+}
+
+.editorial-divider-dashed {
+  border-bottom: 1px dashed #cbd5e1;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
